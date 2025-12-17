@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background-color: #f7f9fb;
+  margin: 0;
+  padding: 0;
+}
+
+input, button {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .auth-container {
+    padding: 1rem;
+  }
+}
